@@ -1,0 +1,9 @@
+POST  http://localhost:3002/api/notas/
+Content-Type: application/json
+
+{
+    "id": 4,    
+    "content": "GET and POST are the most important methods of HTTP protocol"    
+}
+###
+GET http://localhost:3002/api/notas/

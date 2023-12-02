@@ -1,0 +1,6 @@
+GET http://localhost:3002/api/notas
+
+###
+
+
+PUT http://localhost:3002/api/notassss
