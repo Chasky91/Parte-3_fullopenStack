@@ -47,7 +47,7 @@ const requesLogger = (req, res, next) => {
 
 app.use(requesLogger)
 
-app.use(express.static('build'))
+app.use(express.static('dist'))
 
 
 app.get("/", (req, res) => {
